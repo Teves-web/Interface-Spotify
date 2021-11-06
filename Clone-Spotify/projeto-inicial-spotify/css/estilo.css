@@ -1,7 +1,6 @@
 /*
 * 
-* @author Jamilton Damasceno
-*/
+* @author Teves
 
 /* Layout
 _____________________*/
@@ -75,6 +74,14 @@ ____________________*/
 .btn-branco:hover {
 	background: white;
 	color: black;
+}
+
+/* Estrutura de conteúdos
+___________________________*/
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Tipografia
