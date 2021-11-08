@@ -78,6 +78,10 @@ ____________________*/
 	color: black;
 }
 
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
 /* Estrutura de conteúdos
 ___________________________*/
 .caixa{
@@ -115,6 +119,40 @@ ___________________________*/
 	transform: rotate(30deg);
 	padding-left: 80px;
 }
+
+/* Rodapé
+___________________ */
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color: color:#9bf0e1;
+	text-decoration:none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 8px;
+}
+
 /* Tipografia
 ____________________*/
 h1 {
@@ -176,4 +214,6 @@ h3 {
 		font-size: 6em;
 	}
  }
+
+
 
